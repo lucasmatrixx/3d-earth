@@ -50,7 +50,7 @@
         },
         {
             "type": "pull",
-            "order": 4.5,
+            "order": 5,
             "from" : "KUL",
             "to": "SIN",
             "status": false,
@@ -62,7 +62,7 @@
         },
         {
             "type": "pull",
-            "order": 5,
+            "order": 6,
             "from" : "KUL",
             "to": "DPS",
             "status": true,
@@ -74,7 +74,7 @@
         },
         {
             "type": "pull",
-            "order": 6,
+            "order": 7,
             "from" : "DPS",
             "to": "KUL",
             "status": true,
@@ -86,7 +86,7 @@
         },
         {
             "type": "pull",
-            "order": 7,
+            "order": 8,
             "from" : "KUL",
             "to": "DMK",
             "status": true,
@@ -98,7 +98,7 @@
         },
         {
             "type": "pull",
-            "order": 8,
+            "order": 9,
             "from" : "BKK",
             "to": "KJA",
             "status": true,
@@ -110,7 +110,7 @@
         },
         {
             "type": "pull",
-            "order": 9,
+            "order": 10,
             "from" : "KJA",
             "to": "OVB",
             "status": true,
@@ -122,7 +122,7 @@
         },
         {
             "type": "pull",
-            "order": 10,
+            "order": 11,
             "from" : "OVB",
             "to": "IND",
             "status": true,
@@ -134,7 +134,7 @@
         },
         {
             "type": "pull",
-            "order": 10.5,
+            "order": 12,
             "from" : "IND",
             "to": "MOR",
             "status": false,
@@ -146,7 +146,7 @@
         },
         {
             "type": "pull",
-            "order": 11,
+            "order": 13,
             "from" : "MOR",
             "to": "ICN",
             "status": false,
@@ -158,7 +158,7 @@
         },
         {
             "type": "pull",
-            "order": 12,
+            "order": 14,
             "from" : "IND",
             "to": "MOR",
             "status": true,
@@ -170,7 +170,7 @@
         },
         {
             "type": "pull",
-            "order": 13,
+            "order": 15,
             "from" : "MOR",
             "to": "BKK",
             "status": true,
@@ -182,7 +182,7 @@
         },
         {
             "type": "pull",
-            "order": 13.5,
+            "order": 16,
             "from" : "ICN",
             "to": "DMK",
             "status": false,
@@ -194,7 +194,7 @@
         },
         {
             "type": "pull",
-            "order": 14,
+            "order": 17,
             "from" : "DMK",
             "to": "ICN",
             "status": false,
@@ -206,7 +206,7 @@
         },
         {
             "type": "pull",
-            "order": 14.5,
+            "order": 18,
             "from" : "DMK",
             "to": "ICN",
             "status": false,
@@ -218,7 +218,7 @@
         },
         {
             "type": "pull",
-            "order": 15,
+            "order": 19,
             "from" : "BKK",
             "to": "ICN",
             "status": true,

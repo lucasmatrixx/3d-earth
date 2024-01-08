@@ -30,7 +30,7 @@ function init() {
 
   scene = new THREE.Scene();
 
-  var ambientLight = new THREE.AmbientLight(0xbbbbbb, 0.3)
+  var ambientLight = new THREE.AmbientLight(0x000000, 0.3)
   scene.add(ambientLight)
   scene.background = new THREE.Color(0x040d21);
 
@@ -42,13 +42,17 @@ function init() {
   dLight.position.set(-800, 2000, 400);
   camera.add(dLight);
 
-  var dLight1 = new THREE.DirectionalLight(0x7982f6, 1);
+  var dLight1 = new THREE.DirectionalLight(0x0138ff, 1);
   dLight1.position.set(-200, 500, 200);
   camera.add(dLight1);
 
-  var dLight2 = new THREE.PointLight(0x8566cc, 0.5);
+  var dLight2 = new THREE.PointLight(0xffffff, 0.5);
   dLight2.position.set(-200, 500, 200);
   camera.add(dLight2);
+
+  var dLight3 = new THREE.PointLight(0x0138ff, 0.5);
+  dLight2.position.set(-700, -1000, -200);
+  camera.add(dLight3);
 
   camera.position.z = 400;
   camera.position.x = 0;
@@ -56,7 +60,7 @@ function init() {
 
   scene.add(camera);
 
-  scene.fog = new THREE.Fog(0x535ef3, 400, 2000);
+  scene.fog = new THREE.Fog(0xffffff, 400, 2000);
 
   controls = new OrbitControls(camera, renderer.domElement);
   controls.enableDamping = true;
@@ -86,7 +90,7 @@ function initGlobe() {
   .hexPolygonResolution(3)
   .hexPolygonMargin(0.7)
   .showAtmosphere(true)
-  .atmosphereColor("#3a228a")
+  .atmosphereColor("#000000")
   .atmosphereAltitude(0.25)
   
 
@@ -125,8 +129,8 @@ function initGlobe() {
   Globe.rotateY(-Math.PI * (5 / 9));
   Globe.rotateZ(-Math.PI / 6);
   const globeMaterial = Globe.globeMaterial();
-  globeMaterial.color = new THREE.Color(0x3a228a);
-  globeMaterial.emissive = new THREE.Color(0x220038);
+  globeMaterial.color = new THREE.Color(0x23b6f0);
+  globeMaterial.emissive = new THREE.Color(0x23b6f0);
   globeMaterial.emissiveIntensity = 0.1;
   globeMaterial.shininess = 0.7;
 
